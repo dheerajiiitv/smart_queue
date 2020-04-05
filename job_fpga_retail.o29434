@@ -1,0 +1,48 @@
+
+########################################################################
+#      Date:           Sun Apr  5 06:24:47 PDT 2020
+#    Job ID:           29434.v-qsvr-1.devcloud-edge
+#      User:           u39058
+# Resources:           neednodes=1:tank-870:i5-6500te:iei-mustang-f100-a10,nodes=1:tank-870:i5-6500te:iei-mustang-f100-a10,walltime=01:00:00
+########################################################################
+
+[setupvars.sh] OpenVINO environment initialized
+INTELFPGAOCLSDKROOT is set to /opt/altera/aocl-pro-rte/aclrte-linux64. Using that.
+
+aoc was not found, but aocl was found. Assuming only RTE is installed.
+
+AOCL_BOARD_PACKAGE_ROOT is set to /opt/intel/openvino/bitstreams/a10_vision_design_sg1_bitstreams/BSP/a10_1150_sg1. Using that.
+Adding /opt/altera/aocl-pro-rte/aclrte-linux64/bin to PATH
+Adding /opt/altera/aocl-pro-rte/aclrte-linux64/host/linux64/lib to LD_LIBRARY_PATH
+Adding /opt/intel/openvino/bitstreams/a10_vision_design_sg1_bitstreams/BSP/a10_1150_sg1/linux64/lib to LD_LIBRARY_PATH
+[setupvars.sh] OpenVINO environment initialized
+aocl program: Running program from /opt/intel/openvino/bitstreams/a10_vision_design_sg1_bitstreams/BSP/a10_1150_sg1/linux64/libexec
+Programming device: a10gx_2ddr : Intel Vision Accelerator Design with Intel Arria 10 FPGA (acla10_1150_sg10)
+Program succeed. 
+results/retail/Mustang
+HETERO:FPGA,CPU
+Time taken to load the model is: 30.577316761016846
+Total People in frame = 2
+Number of people in queue = {1: 1, 2: 1}
+Total People in frame = 3
+Number of people in queue = {1: 1, 2: 1}
+Total People in frame = 3
+Number of people in queue = {1: 2, 2: 1}
+Total People in frame = 3
+Number of people in queue = {1: 2, 2: 1}
+Total People in frame = 1
+Number of people in queue = {1: 1, 2: 0}
+Total People in frame = 2
+Number of people in queue = {1: 1, 2: 1}
+Total People in frame = 1
+Number of people in queue = {1: 1, 2: 0}
+---Done---
+
+########################################################################
+# End of output for job 29434.v-qsvr-1.devcloud-edge
+# Date: Sun Apr  5 06:25:40 PDT 2020
+########################################################################
+
+skipping application metrics
+Your telemetry account is not created
+True

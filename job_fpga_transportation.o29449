@@ -1,0 +1,62 @@
+
+########################################################################
+#      Date:           Sun Apr  5 06:40:33 PDT 2020
+#    Job ID:           29449.v-qsvr-1.devcloud-edge
+#      User:           u39058
+# Resources:           neednodes=1:tank-870:i5-6500te:iei-mustang-f100-a10,nodes=1:tank-870:i5-6500te:iei-mustang-f100-a10,walltime=01:00:00
+########################################################################
+
+[setupvars.sh] OpenVINO environment initialized
+INTELFPGAOCLSDKROOT is set to /opt/altera/aocl-pro-rte/aclrte-linux64. Using that.
+
+aoc was not found, but aocl was found. Assuming only RTE is installed.
+
+AOCL_BOARD_PACKAGE_ROOT is set to /opt/intel/openvino/bitstreams/a10_vision_design_sg1_bitstreams/BSP/a10_1150_sg1. Using that.
+Adding /opt/altera/aocl-pro-rte/aclrte-linux64/bin to PATH
+Adding /opt/altera/aocl-pro-rte/aclrte-linux64/host/linux64/lib to LD_LIBRARY_PATH
+Adding /opt/intel/openvino/bitstreams/a10_vision_design_sg1_bitstreams/BSP/a10_1150_sg1/linux64/lib to LD_LIBRARY_PATH
+[setupvars.sh] OpenVINO environment initialized
+aocl program: Running program from /opt/intel/openvino/bitstreams/a10_vision_design_sg1_bitstreams/BSP/a10_1150_sg1/linux64/libexec
+Programming device: a10gx_2ddr : Intel Vision Accelerator Design with Intel Arria 10 FPGA (acla10_1150_sg10)
+Program succeed. 
+results/transportation/Mustang
+HETERO:FPGA,CPU
+Time taken to load the model is: 29.65988063812256
+Total People in frame = 8
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 6
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 6
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 6
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 8
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 7
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 5
+Number of people in queue = {1: 1, 2: 0}
+Total People in frame = 5
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 4
+Number of people in queue = {1: 1, 2: 1}
+Total People in frame = 6
+Number of people in queue = {1: 1, 2: 2}
+Total People in frame = 5
+Number of people in queue = {1: 2, 2: 1}
+Total People in frame = 8
+Number of people in queue = {1: 3, 2: 1}
+Total People in frame = 6
+Number of people in queue = {1: 1, 2: 0}
+Total People in frame = 6
+Number of people in queue = {1: 1, 2: 2}
+---Done---
+
+########################################################################
+# End of output for job 29449.v-qsvr-1.devcloud-edge
+# Date: Sun Apr  5 06:41:33 PDT 2020
+########################################################################
+
+skipping application metrics
+Your telemetry account is not created
+True

@@ -1,0 +1,66 @@
+
+########################################################################
+#      Date:           Sun Apr  5 06:40:30 PDT 2020
+#    Job ID:           29448.v-qsvr-1.devcloud-edge
+#      User:           u39058
+# Resources:           neednodes=1:tank-870:i5-6500te:intel-hd-530,nodes=1:tank-870:i5-6500te:intel-hd-530,walltime=01:00:00
+########################################################################
+
+[setupvars.sh] OpenVINO environment initialized
+mbox_conf1/out/conv/flat/softmax/flat is CPU
+mbox_conf1/out/conv/flat/reshape is GPU
+mbox_conf1/out/conv/flat is GPU
+mbox_conf1/out/conv/perm is GPU
+mbox_loc1/out/conv/flat is CPU
+mbox_loc1/out/conv/perm is CPU
+mbox_conf1/out/conv/flat/Cast_137600_const is GPU
+mbox_conf1/out/conv/flat/reshape/Cast_137504_const is GPU
+mbox_conf1/out/conv/flat/softmax/flat/Cast_137606_const is CPU
+mbox_loc1/out/conv/flat/Cast_137536_const is CPU
+mbox_conf1/out/conv/flat/softmax/flat is CPU
+mbox_conf1/out/conv/flat/reshape is GPU
+mbox_conf1/out/conv/flat is GPU
+mbox_conf1/out/conv/perm is GPU
+mbox_loc1/out/conv/flat is CPU
+mbox_loc1/out/conv/perm is CPU
+results/transportation/GPU
+HETERO:GPU,CPU
+Time taken to load the model is: 35.23229503631592
+Total People in frame = 7
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 6
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 6
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 6
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 8
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 7
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 5
+Number of people in queue = {1: 1, 2: 0}
+Total People in frame = 5
+Number of people in queue = {1: 2, 2: 0}
+Total People in frame = 4
+Number of people in queue = {1: 1, 2: 1}
+Total People in frame = 6
+Number of people in queue = {1: 1, 2: 2}
+Total People in frame = 5
+Number of people in queue = {1: 2, 2: 1}
+Total People in frame = 8
+Number of people in queue = {1: 3, 2: 1}
+Total People in frame = 6
+Number of people in queue = {1: 1, 2: 0}
+Total People in frame = 6
+Number of people in queue = {1: 1, 2: 2}
+---Done---
+
+########################################################################
+# End of output for job 29448.v-qsvr-1.devcloud-edge
+# Date: Sun Apr  5 06:41:33 PDT 2020
+########################################################################
+
+skipping application metrics
+Your telemetry account is not created
+True

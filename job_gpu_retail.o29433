@@ -1,0 +1,52 @@
+
+########################################################################
+#      Date:           Sun Apr  5 06:24:44 PDT 2020
+#    Job ID:           29433.v-qsvr-1.devcloud-edge
+#      User:           u39058
+# Resources:           neednodes=1:tank-870:i5-6500te:intel-hd-530,nodes=1:tank-870:i5-6500te:intel-hd-530,walltime=01:00:00
+########################################################################
+
+[setupvars.sh] OpenVINO environment initialized
+mbox_conf1/out/conv/flat/softmax/flat is CPU
+mbox_conf1/out/conv/flat/reshape is GPU
+mbox_conf1/out/conv/flat is GPU
+mbox_conf1/out/conv/perm is GPU
+mbox_loc1/out/conv/flat is CPU
+mbox_loc1/out/conv/perm is CPU
+mbox_conf1/out/conv/flat/Cast_137600_const is GPU
+mbox_conf1/out/conv/flat/reshape/Cast_137504_const is GPU
+mbox_conf1/out/conv/flat/softmax/flat/Cast_137606_const is CPU
+mbox_loc1/out/conv/flat/Cast_137536_const is CPU
+mbox_conf1/out/conv/flat/softmax/flat is CPU
+mbox_conf1/out/conv/flat/reshape is GPU
+mbox_conf1/out/conv/flat is GPU
+mbox_conf1/out/conv/perm is GPU
+mbox_loc1/out/conv/flat is CPU
+mbox_loc1/out/conv/perm is CPU
+results/retail/GPU
+HETERO:GPU,CPU
+Time taken to load the model is: 36.56408333778381
+Total People in frame = 2
+Number of people in queue = {1: 1, 2: 1}
+Total People in frame = 3
+Number of people in queue = {1: 1, 2: 1}
+Total People in frame = 3
+Number of people in queue = {1: 2, 2: 1}
+Total People in frame = 3
+Number of people in queue = {1: 2, 2: 1}
+Total People in frame = 1
+Number of people in queue = {1: 1, 2: 0}
+Total People in frame = 2
+Number of people in queue = {1: 1, 2: 1}
+Total People in frame = 1
+Number of people in queue = {1: 1, 2: 0}
+---Done---
+
+########################################################################
+# End of output for job 29433.v-qsvr-1.devcloud-edge
+# Date: Sun Apr  5 06:25:37 PDT 2020
+########################################################################
+
+skipping application metrics
+Your telemetry account is not created
+True
