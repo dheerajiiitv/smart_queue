@@ -41,7 +41,7 @@ lazr.restfulclient==0.13.5
 lazr.uri==1.0.3
 MarkupSafe==1.1.1
 mercurial==4.5.3
-mistune==0.8.4
+mistune==2.0.3
 nbconvert==5.6.1
 nbformat==4.4.0
 netifaces==0.10.4
