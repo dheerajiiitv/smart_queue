@@ -7,7 +7,7 @@ bleach==3.1.4
 bzr==2.8.0.dev1
 catkin-pkg==0.4.16
 catkin-pkg-modules==0.4.16
-certifi==2019.11.28
+certifi==2022.12.7
 chardet==3.0.4
 configobj==5.0.6
 configparser==4.0.2
